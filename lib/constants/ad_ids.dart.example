@@ -1,0 +1,17 @@
+/// IDs do AdMob
+/// Substitua pelos IDs reais de produção.
+/// Para obter seus próprios IDs:
+/// 1. Acesse https://apps.admob.com/
+/// 2. Crie uma conta no AdMob
+/// 3. Adicione seu aplicativo
+/// 4. Crie unidades de anúncio
+/// 5. Substitua os valores abaixo pelos seus IDs reais
+class AdIds {
+  // App ID (use o ID de teste abaixo ou substitua pelo seu ID real)
+  // ID de teste para Android: ca-app-pub-3940256099942544~3347511713
+  static const String admobAppId = 'ca-app-pub-3940256099942544~3347511713';
+
+  // Bloco de anúncio de banner (use o ID de teste abaixo ou substitua pelo seu ID real)
+  // ID de teste para banner: ca-app-pub-3940256099942544/6300978111
+  static const String homeBanner = 'ca-app-pub-3940256099942544/6300978111';
+}

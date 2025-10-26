@@ -1,0 +1,16 @@
+# Gradle Properties Template
+# Copie este arquivo para gradle.properties e configure os valores reais
+
+# Configurações do Gradle
+org.gradle.jvmargs=-Xmx8G -XX:MaxMetaspaceSize=4G -XX:ReservedCodeCacheSize=512m -XX:+HeapDumpOnOutOfMemoryError
+android.useAndroidX=true
+android.enableJetifier=true
+
+# AdMob App ID (substitua pelo seu ID real de produção)
+ADMOB_APP_ID=ca-app-pub-XXXXXXXXXXXXXXXX~XXXXXXXXXX
+
+# Assinatura para release (substitua pelas suas credenciais reais)
+KEYSTORE_PASSWORD=sua_senha_do_keystore
+KEY_PASSWORD=sua_senha_da_chave
+KEY_ALIAS=seu_alias_da_chave
+STORE_FILE=release-key.jks

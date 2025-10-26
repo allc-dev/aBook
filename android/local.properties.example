@@ -1,0 +1,14 @@
+# Configurações locais do Flutter e Android SDK
+# Este arquivo é gerado automaticamente pelo Flutter
+# Substitua os caminhos pelos caminhos corretos do seu sistema
+
+# Caminho para o Android SDK (ajuste conforme sua instalação)
+sdk.dir=/caminho/para/android/sdk
+
+# Caminho para o Flutter SDK (ajuste conforme sua instalação)  
+flutter.sdk=/caminho/para/flutter
+
+# Configurações de build (não altere)
+flutter.buildMode=debug
+flutter.versionName=2.0.0
+flutter.versionCode=14
