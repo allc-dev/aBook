@@ -30,12 +30,14 @@ Este aplicativo foi otimizado exclusivamente para **Android**.
 ### Passo a passo
 
 1. **Clone o repositório**
+
    ```bash
-   git clone https://github.com/seu-usuario/aBook.git
+   git clone https://github.com/allc-dev/aBook.git
    cd aBook
    ```
 
 2. **Configure as dependências**
+
    ```bash
    flutter pub get
    ```
@@ -43,6 +45,7 @@ Este aplicativo foi otimizado exclusivamente para **Android**.
 3. **Configure os arquivos necessários**
 
    a) **AdMob (Anúncios)**
+
    ```bash
    # Copie o arquivo de exemplo
    cp lib/constants/ad_ids.dart.example lib/constants/ad_ids.dart
@@ -52,6 +55,7 @@ Este aplicativo foi otimizado exclusivamente para **Android**.
    ```
 
    b) **Configurações do Android**
+
    ```bash
    # Copie o arquivo de exemplo
    cp android/local.properties.example android/local.properties
@@ -60,6 +64,7 @@ Este aplicativo foi otimizado exclusivamente para **Android**.
    ```
 
    c) **Assinatura do APK (Para release)**
+
    ```bash
    # Copie o arquivo de exemplo
    cp android/key.properties.example android/key.properties
@@ -71,6 +76,7 @@ Este aplicativo foi otimizado exclusivamente para **Android**.
    ```
 
 4. **Execute o aplicativo**
+
    ```bash
    # Modo debug
    flutter run
@@ -130,6 +136,7 @@ lib/
 ## 📊 Banco de Dados
 
 O aplicativo utiliza um banco SQLite local contendo:
+
 - Versículos bíblicos
 - Estatísticas do usuário
 - Histórico de leitura
@@ -149,8 +156,8 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ## 📧 Contato
 
-- GitHub: [@andrellopes](https://github.com/andrellopes)
-- Email: seu-email@exemplo.com
+- GitHub: [@allc-dev](https://github.com/allc-dev)
+- Email: <allc.dev@outlook.com>
 
 ## � Fonte dos Dados da Bíblia
 

@@ -2,7 +2,7 @@ name: a_book
 description: Quiz bíblico - Descubra de qual livro é o versículo!
 publish_to: 'none'
 
-version: 2.0.0+15
+version: 2.0.1+16
 
 environment:
   sdk: ^3.8.1
@@ -61,6 +61,7 @@ flutter_icons:
 # Splash screen configuration
 flutter_native_splash:
   color: "#ffffff"
+  color_dark: "#ffffff"
   image: assets/icon.png
   android: true
   web: false
